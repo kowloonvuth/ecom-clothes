@@ -10,6 +10,13 @@
 
 .buttons {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  gap: 5px;
+  // gap: 5px;
+}
+
+.google-button {
+  width: 50%;
+  color: white;
+  background-color: #4285f4;
 }
