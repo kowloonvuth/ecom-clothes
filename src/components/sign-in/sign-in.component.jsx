@@ -38,7 +38,7 @@ class SignIn extends React.Component{
         } catch (error) {
             console.log(error);
         }
-        console.log(this.handleSubmit);
+        // console.log(this.handleSubmit);
     };
 
     handleChange = event => {
