@@ -10,12 +10,10 @@
   .image-container {
     width: 23%;
     padding-right: 15px;
-    height: 10%;
 
     img {
       width: 100%;
-      height: auto;
-      object-fit: contain;
+      height: 100%;
     }
   }
   .name,
@@ -25,7 +23,15 @@
   }
 
   .quantity {
-    padding-left: 20px;
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+    }
+
+    .value {
+      margin: 0 10px;
+    }
   }
 
   .remove-button {
