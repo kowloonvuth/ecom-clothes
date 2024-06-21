@@ -45,13 +45,14 @@ class App extends React.Component {
   }
 
   render() {
+    const {match} = this.props;
   return (
     <Router>
     <div>
     <Header />
     <Routes>
       <Route exact path='/' element={<HomePage />}/>
-      <Route path='/shop' element={<ShopPage />}/>
+      <Route path='/shop/*' element={<ShopPage match={match}/>}/>
       <Route exact path='/checkout' element={<CheckoutPage />} />
       <Route exact 
              path='/signin' 
