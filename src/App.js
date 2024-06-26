@@ -16,6 +16,7 @@ import CheckoutPage from './pages/homepage/checkout/checkout.component';
 
 import HomePage from './pages/homepage/homepage.components';
 
+
 class App extends React.Component {
   unsubcribeFromAuth = null
 
